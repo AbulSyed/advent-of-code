@@ -7,8 +7,8 @@ import org.junit.jupiter.params.provider.CsvSource;
 class Day01Test {
 
     @CsvSource({
-        "demo.txt,11",
-        "input.txt,2176849"
+        "d1-demo.txt,11",
+        "d1-input.txt,2176849"
     })
     @ParameterizedTest
     void partOneTest(String fileName, int expectedValue) {
@@ -18,8 +18,8 @@ class Day01Test {
     }
 
     @CsvSource({
-        "demo.txt,31",
-        "input.txt,23384288"
+        "d1-demo.txt,31",
+        "d1-input.txt,23384288"
     })
     @ParameterizedTest
     void partTwoTest(String fileName, int expectedValue) {

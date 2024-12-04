@@ -10,8 +10,8 @@ import java.util.Map;
 
 public class Day01 {
 
-    private static final String DEMO_TXT = "demo.txt";
-    private static final String INPUT_TXT = "input.txt";
+    private static final String DEMO_TXT = "d1-demo.txt";
+    private static final String INPUT_TXT = "d1-input.txt";
 
     public static void main(String[] args) {
         partOne(DEMO_TXT);
